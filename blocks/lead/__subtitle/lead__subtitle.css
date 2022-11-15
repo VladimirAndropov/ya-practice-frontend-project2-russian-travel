@@ -1,0 +1,30 @@
+.subtitle {
+  margin: 0 auto;
+  margin-bottom: 64px;
+  text-align: center;
+  line-height: 36px;
+  max-width: 640px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .subtitle {
+    margin-bottom: 40px;
+    line-height: 20px;
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .subtitle {
+    min-width: 288px;
+  }
+}

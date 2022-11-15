@@ -1,0 +1,23 @@
+.places__url {
+  letter-spacing: 2px;
+  flex-direction: row;
+  line-height: 170%;
+  color: #aaaaaa;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__url {
+    margin-bottom: 12px;
+    margin-top: 32px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .places__url {
+    flex-direction: column;
+  }
+}

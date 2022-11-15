@@ -1,0 +1,7 @@
+.places__cards {
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}

@@ -1,0 +1,27 @@
+.title {
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 32px;
+  line-height: 100px;
+  text-align: center;
+  align-self: center;
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 96px;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    margin-top: 48px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .title {
+    margin-bottom: 16px;
+    line-height: 44px;
+    min-width: 288px;
+    font-size: 40px;
+  }
+}
