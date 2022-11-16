@@ -1,7 +1,7 @@
 /* stylelint-disable function-url-quotes */
 
 /* fonts */
-@import url("../vendor/fonts/inter.css");
+@import url("../fonts/fonts.css");
 
 /* general */
 @import url(../vendor/normalize.css);
