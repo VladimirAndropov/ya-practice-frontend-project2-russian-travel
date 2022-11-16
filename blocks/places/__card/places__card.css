@@ -1,5 +1,6 @@
 .places__card {
   flex-direction: column;
+  margin-bottom: 80px;
   display: flex;
 }
 
@@ -7,7 +8,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .places__card {
     margin-bottom: 73px;
   }
@@ -16,11 +17,5 @@
 @media screen and (max-width: 767px) {
   .places__card {
     margin-bottom: 50px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .places__card {
-    margin-bottom: 80px;
   }
 }

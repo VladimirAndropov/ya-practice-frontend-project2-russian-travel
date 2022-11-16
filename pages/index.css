@@ -1,27 +1,22 @@
 /* stylelint-disable function-url-quotes */
 
 /* fonts */
-@import url(../fonts/Inter-ExtraLight.ttf);
-@import url(../fonts/Inter-ExtraBold.ttf);
-@import url(../fonts/Inter-SemiBold.ttf);
-@import url(../fonts/Inter-Regular.ttf);
-@import url(../fonts/Inter-Medium.ttf);
-@import url(../fonts/Inter-Black.ttf);
-@import url(../fonts/Inter-Light.ttf);
-@import url(../fonts/Inter-Bold.ttf);
-@import url(../fonts/Inter-Thin.ttf);
+@import url("../vendor/fonts/inter.css");
 
 /* general */
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/main/main.css);
 
+/* hover */
+@import url(../blocks/opacity/opacity.css);
+
 /* header */
-@import url(../blocks/header/__lang-links/header__lang-links.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__row/header__row.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/_mod/header__lang-link_mod_active.css);
 
 /* lead */
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -69,6 +64,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/footer.css);
-
-/* hover */
-@import url(../blocks/opacity/opacity.css);

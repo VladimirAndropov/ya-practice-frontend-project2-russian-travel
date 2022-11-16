@@ -1,21 +1,16 @@
 .places__blank {
+  flex-direction: row;
   display: flex;
   padding: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .places__blank {
     flex-direction: row;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .places__blank {
-    flex-direction: row;
-  }
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
   .places__blank {
     flex-direction: column;
     width: 100%;
