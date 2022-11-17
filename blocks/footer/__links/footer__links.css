@@ -4,6 +4,6 @@
     flex-direction: column;
     margin-bottom: 48px;
     display: flex;
-    width: 158px;
+    max-width: 158px;
   }
 }

@@ -12,14 +12,12 @@
 
 @media screen and (max-width: 768px) {
   .lead {
-    padding: 0;
     padding-top: 48px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-    padding: 0;
     padding-top: 40px;
   }
 }
