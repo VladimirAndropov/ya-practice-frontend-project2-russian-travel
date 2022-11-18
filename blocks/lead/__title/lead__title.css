@@ -25,9 +25,3 @@
     font-size: 40px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .lead__title {
-    padding-top: 8px;
-  }
-}
